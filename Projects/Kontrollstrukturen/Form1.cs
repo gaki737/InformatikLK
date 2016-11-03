@@ -141,7 +141,7 @@ namespace Kontrollstrukturen
         {
 
             string[] usernames = new string[] { "admin", "Bono" };
-            string[] passes = new string[] { "0f037584c99e7fd4f4f8c59550f8f507", "282fd98864016f67244d28c658e4b1a6" };
+            string[] passes = new string[] { "0f037584c99e7fd4f4f8c59550f8f507", "282fd98864016f67244d28c658e4b1a6" }; // Hard coded hash der passwörter
 
             string user = TB_loginUser.Text;
             string pass = TB_loginPass.Text;
